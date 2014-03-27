@@ -1,0 +1,190 @@
+h1 {
+	padding-top:200px;
+	padding: 200px;
+	font-size: 135px;
+	font-weight: bold;
+     color: #FFD39B;
+
+	font-family: 'Gilda Display', serif;
+
+
+}
+
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: (1600px - @grid-gutter-width);
+        background-color: white;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .container {
+        max-width: (1900px - @grid-gutter-width);
+        background-color: white;
+    }
+}
+
+
+h3 p{
+    color: #FFD39B;
+}
+
+.fizzy{
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+
+    padding-top: 250px;
+
+}
+
+.padding{
+    padding-top: 100px;
+}
+
+
+.control-group{
+    padding-top: 50px;
+    float: center;
+    text-align: center;
+    font-family: 'Gilda Display', serif;
+    font-size: 30px;
+    color: black;
+
+}
+
+.center-block {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+  height: 400px;
+}
+
+
+
+
+h2{
+    color: #FFD39B;
+	font-family:  'Gilda Display', serif;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+
+
+body{
+	font-family:  'Gilda Display', serif;
+    color: black;
+     background-image: url("/img/bac2.jpg");
+     background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+ 
+}
+
+body p{
+	font-size: 17px;
+}
+
+h3{
+    color: black;
+}
+
+
+
+
+
+.viewport {
+    border: 3px solid black;
+    float: left;
+    padding: 5px;
+    height: 259px;
+    margin: 0 9px 9px 0;
+    overflow: hidden;
+    position: relative;
+    width: 390px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* This is so that the 2nd thumbnail in each row fits snugly. You will want to add a similar
+   class to the last thumbnail in each row to get rid of the margin-right. */
+.no-margin {
+    margin-right: 10px;
+}
+
+/* --- Link configuration that contains the image and label ----------------------------- */
+.viewport a {
+    display: block;
+    position: relative;
+
+}
+
+.viewport a img {
+    height: 232px;
+    left: -20px;
+    position: relative;
+    top: -20px;
+    width: 400px;
+}
+
+
+
+/* --- Label configuration -------------------------------------------------------------- */
+.viewport a span {
+    display: none;
+    font-size: 3.0em;
+    font-weight: bold;
+    height: 100%;
+    padding-top: 70px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+}
+    .viewport a span em {
+        display: block;
+        font-size: 0.45em;
+        font-weight: normal;
+    }
+
+/* --- Dark hover background ------------------------------------------------------------ */
+.dark-background {
+    background-color: rgba(15, 15, 15, 0.6);
+    color: #fff;
+    text-shadow: #000 0px 0px 20px;
+}
+    .dark-background em {
+        color: #ccc;
+    }
+
+
+
+
+
+.foot-fixed-bottom hr {
+ border-image: none;
+ border-style: solid none;
+ border-width: 1px 0;
+ margin: 0 0 5px;
+ width: 100%;
+}
+.footer p {
+ color: rgb(255, 255, 255);
+ font-size: 14px;
+ margin: 0 12px 15px;
+}
+
+.popover-medium {
+    display:block !important;
+    max-width: 400px!important;
+    width:auto;
+    overflow: auto;
+
+    color: black;
+}

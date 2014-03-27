@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuyu Lai</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/name.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+
+   
+  </head>
+ 
+<body>
+  <br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+
+<h2 style="text-align:center;"> Take a Personality Survey</h2>
+<br>
+<br>
+<form action="/survey" method="post">
+<div class="col-md-offset-1">
+  <h3> You work best: </h3>
+  <input type="radio" name="work_best" value="with_deadlines" checked /> With deadlines
+  <br>
+  <input type="radio" name="work_best" value="without_deadlines" /> Without deadlines
+
+  <h3 > You consider yourself more: </h3>
+  <input type="radio" name="consider_yourself" value="compassionate" checked /> Compassionate
+  <br>
+  <input type="radio" name="consider_yourself" value="rational" /> Rational
+
+  <h3 > You are more interested in: </h3>
+  <input type="radio" name="interested_in" value="ideas" checked /> Ideas
+  <br>
+  <input type="radio" name="interested_in" value="facts" /> Facts
+
+  <h3 > Your favourite type of music is: </h3>
+  <input type="radio" name="fav_music" value="country" checked /> Country
+  <br>
+  <input type="radio" name="fav_music" value="hiphop" /> Hip Hop 
+
+  <h3> Your favourite dessert: </h3>
+  <input type="radio" name="fav_dessert" value="cookies" checked /> Cookies
+  <br>
+  <input type="radio" name="fav_dessert" value="cake" /> Cakes
+
+  <br>
+  <br>
+  
+  <br>
+  <div class="control-group">
+  <button type="button" class="btn btn-warning" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @personality_type %>">
+  <h3>Show My Personality: </h3>
+  
+</button>
+</div> 
+</div>
+</form>
+
+</body>
+</html>

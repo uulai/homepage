@@ -1,0 +1,36 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuyu Lai</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/name.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+
+   
+  </head>
+ 
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ <h2 style="text-align:center;">Histogram</h2> 
+
+<form action="/histogram" method="post">
+
+  <h3 style="text-align:center;"> Enter a sentence:   <input type="text" id="sentence" name="sentence" /> </h3>
+  <br>
+  <br> 
+  <button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @results %>">
+  <h3>Results: </h3>
+</button>
+<br> 
